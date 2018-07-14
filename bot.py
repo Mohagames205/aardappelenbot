@@ -171,22 +171,6 @@ async def aardappel(ctx):
 	member = ctx.message.author
 	await bot.say("Hier een aardappel {} ! :potato:" .format(member))
 	
-@bot.command(pass_context = True)
-async def fn(ctx, gebruikernaam):
-	await bot.say("Deze functie is experimenteel!")
-	await bot.say("Momentje alsjeblieft `API key ophalen....`")
-	await asyncio.sleep(4)
-	await bot.say("`Done!`")
-	await bot.say("https://www.stormshield.one/pvp/stats/{}" .format(gebruikernaam))
-	
-@bot.command(pass_context = True)	
-async def rhn(ctx):
-	rollie8 = discord.utils.get(ctx.message.server.roles, name="bot")
-	persoon = ctx.message.author 
-	await bot.add_roles(persoon, rollie8)
-	await bot.say("rhn done `No exception has occured`")
-	print ("done")
-	
 
 	
 
