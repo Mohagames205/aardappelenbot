@@ -76,7 +76,7 @@ async def ban(ctx, userName: discord.User):
 
 
 @bot.command(pass_context = True)
-#@commands.has_permissions(manage_messages =  True)
+@commands.has_permissions(manage_messages =  True)
 async def purge(ctx, number):
 	try:
 		mgs = [] #Empty list to put all the messages in the log
