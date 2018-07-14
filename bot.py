@@ -190,4 +190,4 @@ async def rhn(ctx):
 
 	
 
-bot.run(os.getenv('NDQyNDEwMDI5MTQ5MTkyMTky.Dit-HQ.cUB6QJs_H9z8_Zve6Mub2QF5ucA'))
+bot.run('NDQyNDEwMDI5MTQ5MTkyMTky.Dit-HQ.cUB6QJs_H9z8_Zve6Mub2QF5ucA')
