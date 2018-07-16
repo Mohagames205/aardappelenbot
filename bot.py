@@ -174,4 +174,4 @@ async def aardappel(ctx):
 
 	
 
-bot.run('NDQyNDEwMDI5MTQ5MTkyMTky.Dit-HQ.cUB6QJs_H9z8_Zve6Mub2QF5ucA')
+bot.run(os.getenv('TOKEN'))
