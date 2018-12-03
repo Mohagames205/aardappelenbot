@@ -72,7 +72,7 @@ async def kick(ctx, userName: discord.User):
 async def ban(ctx, userName: discord.User):
     """Ban a user"""
     await bot.ban(userName)
-    await bot.say("*** :white_check_mark: The user {} had been banned***" .format(userName))
+    await bot.say("*** :white_check_mark: The user {} has been banned***" .format(userName))
 
 
 @bot.command(pass_context = True)
