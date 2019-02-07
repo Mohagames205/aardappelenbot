@@ -8,6 +8,7 @@ import os
 import datetime
 import traceback
 import urllib
+import urllib.request
 #tijd = int(time.strftime("%M"))
 #tijd1 = str(time.strftime("%c"))
 #tijd1 = datetime.datetime.now().strftime("%c")
